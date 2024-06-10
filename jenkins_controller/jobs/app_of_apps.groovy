@@ -12,7 +12,7 @@ pipelineJob('app_of_apps') {
                         credentials("")
                         url("https://github.com/Panda-Academy-Core-2-0//App_of_apps")
                     }
-                    branches('selenium')
+                    branches('jenkinsfile')
                     scriptPath('Jenkinsfile')
                 }
             }
